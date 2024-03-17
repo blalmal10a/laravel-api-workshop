@@ -2482,8 +2482,6 @@ class Todo extends Model
       'name': item,
     });
     todoList.value = res.data;
-    print(navigator);
-    navigator?.pop(context);
   } catch (e) {
     print(e);
   }
@@ -2495,8 +2493,6 @@ updateTodo(name, id, context) async {
       'name': name,
     });
     todoList.value = res.data;
-    print(navigator);
-    navigator?.pop(context);
   } catch (e) {
     print(e);
   }
